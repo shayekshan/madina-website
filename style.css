@@ -13,7 +13,7 @@ h1 {
     color: rgb(17, 130, 200);
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -47,4 +47,28 @@ section {
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.section-3 {
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.shadow-box {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 50px gray;
+    padding-left: 30px;
+    border-radius: 15px;
+    border-left: 8px solid blue;
+}
+
+#box-1 {
+    border-left: 8px solid tomato;
+}
+
+footer p {
+    text-align: center;
 }
