@@ -15,15 +15,17 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .division-1 {
-    width: 80%;
-    padding-left: 10%;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .division-1 img {
-    width: 100%;
+    width: 80%;
 }
 
 .link-button {
@@ -37,6 +39,12 @@ section {
 }
 
 .section-1 {
-    background-image: url(image/Frame\ 57.jpg);
+    background-image: url(image/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.section-2 {
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
